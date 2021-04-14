@@ -1,7 +1,14 @@
+import { FC } from 'react';
+import AboutUs from './pages/AboutUs';
+import Services from './pages/Services';
 
-function App() {
+const App: FC = () => {
   return (
-    <h1>Helloo</h1>   
+    <>
+      <AboutUs />
+      <Services />
+    </>
+
   );
 }
 
