@@ -1,9 +1,13 @@
 import { FC } from 'react';
 import AboutUs from './pages/AboutUs';
+import GlobalStyle from './components/GlobalStyle';
 
 const App: FC = () => {
   return (
-    <AboutUs />
+    <div className='App'>
+      <GlobalStyle />
+      <AboutUs />
+    </div>
   );
 }
 
